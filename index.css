@@ -127,6 +127,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* end of css meyers reset */
+
+@font-face {
+  font-family: Chelsea;
+  src: url(https://fonts.google.com/specimen/Chelsea+Market);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(https://fonts.google.com/specimen/Roboto+Mono);
+}
 
 html {
   font-size: 62.5%;
@@ -149,18 +160,18 @@ navigation a {
   text-decoration: none;
   border: 1px solid black;
   border-bottom: 2px inset purple;
-  background: orangered;
+  background: #FF764E;
   color: oldlace;
   font-size: 1.6rem;
   text-align: center;
   padding: 1% 2%;
   border-radius: 5px;
 }
-.learn{
-background:rgb(125, 248, 248);
+.learn {
+  background: #5ED3EB;
 }
-.involved{
-  background:rgb(241, 230, 80);
+.involved {
+  background:#FFCD69;
 }
 header {
   display: flex;
@@ -182,6 +193,7 @@ header .header {
 }
 
 h1 {
+  font-family: 'Chelsea Market', cursive;
   font-size: 4rem;
   font-weight: 800;
 }
