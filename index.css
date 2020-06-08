@@ -156,7 +156,12 @@ navigation a {
   padding: 1% 2%;
   border-radius: 5px;
 }
-
+.learn{
+background:rgb(125, 248, 248);
+}
+.involved{
+  background:rgb(241, 230, 80);
+}
 header {
   display: flex;
   justify-content: space-around;
